@@ -2,15 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
   "basics": {
     "name": "Xavier Saliniere",
-    "label": "Développeur Full-Stack Senior",
-    "image": "https://raw.githubusercontent.com/nipsysdev/resume/refs/heads/main/photo.png",
+    "label": "Fondateur de 3ème Atelier · Ingénieur logiciel",
+    "image": "https://raw.githubusercontent.com/AI-M4K3R/resume/refs/heads/main/photo.png",
     "email": "bonjour@xav.dev",
+    "phone": "+33 7 59 96 51 03",
     "url": "https://xav.dev",
-    "summary": "Développeur Full-Stack Senior avec un focus Frontend comptant plus de 10 ans d'expérience dans le développement d'applications d'entreprise, notamment dans les domaines de la sécurité, de l'opérationnel et de l'analyse de données. Expert dans la conception de systèmes à forte autonomie orientés résultats, incluant des plateformes de support client s'appuyant sur l'IA et une infrastructure P2P décentralisée. Je possède 6 ans d'expérience avec Angular, 4 ans avec Vue.js, 6 ans avec Java (dont 3 avec Spring Boot) ainsi que 3 ans en Python Django.",
+    "summary": "Ingénieur logiciel avec plus de dix ans d'expérience en applications d'entreprise, sécurité, opérations et analyse de données. Fondateur de 3ème Atelier, société de développement de logiciel, depuis septembre 2026 — création de MesAgents.net, des agents IA au service des professionnels. Précédemment développeur full-stack senior chez Talan, Renault Digital et Yanport.",
     "location": {
-      "city": "Denpasar",
-      "countryCode": "ID",
-      "address": "Indonésie"
+      "address": "Martinique, France",
+      "countryCode": "FR"
     },
     "nationality": "Citoyen français",
     "profiles": [
@@ -28,10 +28,18 @@
   },
   "work": [
     {
+      "name": "3ème Atelier",
+      "position": "Fondateur",
+      "startDate": "2026-09",
+      "summary": "Société de développement de logiciel (auto-entrepreneur). Création de MesAgents.net, des agents IA au service des professionnels.",
+      "url": "https://3eme.dev"
+    },
+    {
       "name": "Talan",
       "position": "Développeur Full-Stack Senior",
       "startDate": "2022-01",
-      "summary": "Consultant Senior spécialisé dans l'architecture d'entreprise complexe. Actuellement en R&D sur les infrastructures décentralisées et l'orchestration d'agents IA.",
+      "endDate": "2026-09",
+      "summary": "Consultant Senior spécialisé dans l'architecture d'entreprise complexe, incluant des travaux de R&D sur les infrastructures décentralisées et l'orchestration d'agents IA.",
       "url": "https://talan.com"
     },
     {
@@ -90,14 +98,6 @@
       "studyType": "BTS SIO option SLAM",
       "startDate": "2014",
       "endDate": "2016"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "IELTS General Training",
-      "date": "2021-07-01",
-      "issuer": "British Council",
-      "url": "https://www.ielts.org"
     }
   ],
   "skills": [
@@ -183,36 +183,10 @@
       "fluency": "Bilingue"
     }
   ],
-  "projects": [
-    {
-      "name": "Ash",
-      "description": "Vainqueur du RealFi Hack 2025. Développement d'une preuve de concept de coordination résistante à la censure à destination d'activistes, intégrant Tor et le protocole P2P Waku pour permettre une communication sécurisée et décentralisée dans des environnements à haut risque.",
-      "keywords": ["TypeScript", "Rust", "Tauri", "Waku/Logos stack", "Tor", "P2P"],
-      "url": "https://github.com/nipsysdev/Ash"
-    },
-    {
-      "name": "@nipsys/lsd",
-      "description": "Création d'une implémentation open source du Logos Design System. Développement d'une bibliothèque UI complète, personnalisable et accessible basée sur Radix UI et shadcn/ui, offrant un langage de design standardisé pour les applications décentralisées.",
-      "keywords": ["TypeScript", "React", "shadcn", "Radix UI", "Design System", "GitHub CI"],
-      "url": "https://lsd.nipsys.dev/"
-    },
-    {
-      "name": "storage-rust-bindings",
-      "description": "Développement des bindings FFI Rust officiels pour le réseau de stockage Logos (intégrés à l'organisation GitHub de Logos), permettant une interaction sécurisée et performante avec les protocoles de stockage décentralisés pour la communauté Rust.",
-      "keywords": ["Rust", "FFI", "Logos Storage"],
-      "url": "https://github.com/nipsysdev/storage-rust-bindings"
-    },
-    {
-      "name": "site",
-      "description": "Site personnel au thème terminal, déployé sur IPFS, auto-hébergé avec support bilingue FR/EN et infrastructure P2P.",
-      "keywords": ["TypeScript", "React", "Next.js", "IPFS", "GitHub CI", "Auto-hébergement"],
-      "url": "https://xav.dev/"
-    }
-  ],
   "meta": {
     "canonical": "https://github.com/nipsysdev/resume",
-    "version": "v1.7.0",
-    "lastModified": "2026-08-28",
+    "version": "v1.8.0",
+    "lastModified": "2026-11-18",
     "theme": "jsonresume-theme-stackoverflow"
   }
 }
